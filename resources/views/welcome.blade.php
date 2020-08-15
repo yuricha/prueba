@@ -87,9 +87,10 @@
                 <div class="links">
                     <a href="https://linkedin.com/in/yuri-ervert-condori-valeriano-0a4a2b59"  target="_blank">Linkedin</a>
                     <a href="{{ url('/api/dogs') }}">List Dogs</a>
+                    <a href="{{ url('/posthelp') }}">POST Dogs</a>
                     <a href="{{ url('/nocreate') }}">Middelware</a>
-                    <a href="https://laravel-news.com">Oauth</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ url('/oauth2') }}">Oauth2</a>
+                    <a href="https://github.com/yuricha/prueba">GitHub</a>
                 </div>
             </div>
         </div>

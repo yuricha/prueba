@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::view('/nocreate', 'nocreate');
+Route::view('/posthelp', 'posthelp');
+Route::view('/oauth2', 'oauth2');
