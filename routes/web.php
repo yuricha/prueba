@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::view('/nocreate', 'nocreate');
 Route::view('/posthelp', 'posthelp');
 Route::view('/oauth2', 'oauth2');
+
+Route::view('/ok', 'ok')->middleware(['checkage']);
+Route::view('/bad', 'bad');

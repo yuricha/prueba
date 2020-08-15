@@ -16,7 +16,7 @@ class CheckAge
     public function handle($request, Closure $next)
     {
         if ($request->age <= 0) {
-            return redirect('nocreate');
+            return redirect('bad');
         }
         return $next($request);
     }
