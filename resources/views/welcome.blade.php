@@ -86,11 +86,11 @@
 
                 <div class="links">
                     <a href="https://linkedin.com/in/yuri-ervert-condori-valeriano-0a4a2b59"  target="_blank">Linkedin</a>
-                    <a href="{{ url('/api/dogs') }}">List Dogs</a>
-                    <a href="{{ url('/posthelp') }}">POST Dogs</a>
-                    <a href="{{ url('/nocreate') }}">Middelware</a>
-                    <a href="{{ url('/oauth2') }}">Oauth2</a>
-                    <a href="https://github.com/yuricha/prueba">GitHub</a>
+                    <a href="{{ url('/api/dogs') }}" target="_blank">List Dogs</a>
+                    <a href="{{ url('/posthelp') }}" target="_blank">POST Dogs</a>
+                    <a href="{{ url('/nocreate') }}" target="_blank">Middelware</a>
+                    <a href="{{ url('/oauth2') }}" target="_blank">Oauth2</a>
+                    <a href="https://github.com/yuricha/prueba" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>
